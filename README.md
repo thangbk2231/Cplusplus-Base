@@ -25,8 +25,8 @@ https://cpp.daynhauhoc.com/9/1-structs/
 Viết inline thì compiler sẽ chèn luôn code của hàm đó vào, thay vì chèn địa chỉ, cpu chỉ chạy một mạch mà thôi, vậy nên sẽ nhanh hơn. Chỉ nên dùng cho getter và setter vì nó nhẹ mà hay được gọi
 
 * Inline về cơ bản nó sẽ không tạo ra lời gọi hàm mà chèn trực tiếp mã vào nơi hàm được gọi > tăng size (cụ thể là của file thực thi).
-Giống như việc bạn học bài thi học kì, thầy cho đề cương gồm nhiều câu hỏi tự luận. Bạn thích gom các câu trả lời vào chung 1 tờ giấy A4 cho dễ học, đỡ mất thời gian học từng bài, hay chỉ cần đánh dấu trong vở những phần cần học.
-Sử dụng inline cũng vậy.
+Giống như việc bạn học bài thi học kì, thầy cho đề cương gồm nhiều câu hỏi tự luận. Bạn thích gom các câu trả lời vào chung 1 tờ giấy A4 cho dễ học, đỡ mất thời gian học từng bài, hay chỉ cần đánh dấu trong vở những phần cần học.  
+  Sử dụng inline cũng vậy.
 
 * Hàm được khai báo “inline” không có nghĩa là compiler sẽ bắt buôc phải inline nó, mà tùy thuộc vào hàm mà compiler có inline hay không.
 Không phải lúc nào cũng dùng hàm “inline” bởi vì khi hàm được inline quá dài và sử dụng nhiều lần trong source code, nó sẽ expand ra và làm tăng size của chương trình lên rất nhiều. Vì thế, thường ta sẽ inline những hàm có body ngắn thôi.
