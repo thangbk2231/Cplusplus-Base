@@ -37,6 +37,6 @@ Không phải lúc nào cũng dùng hàm “inline” bởi vì khi hàm đượ
    Trong lập trình, hàm viết càng nhỏ càng tốt, càng ít logic càng tốt. Vẫn theo quy tắc cũ 80 cột / 25 hàng tối đa cho một hàm.  
    Với một số ngôn ngữ lập trình bậc cao như C#, thì việc GET/SET được quy về một cái gọi là ĐẶC TÍNH (hay tiếng Anh là PROPERTY), chỉ cần khai báo 1 lần trong code thôi. Nhưng về bản chất code sinh ra trước khi biên dịch thì sẽ tách ra thành 2 hàm, một GET, một SET cả thôi.  
 
-* Đặc trưng oop
+* Đặc trưng oop  
    lấy hoặc thay đổi gía trị của biến private nội bộ lớp thông qua phương thức get, set
 
