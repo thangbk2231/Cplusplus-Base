@@ -31,4 +31,12 @@ Giống như việc bạn học bài thi học kì, thầy cho đề cương g�
 * Hàm được khai báo “inline” không có nghĩa là compiler sẽ bắt buôc phải inline nó, mà tùy thuộc vào hàm mà compiler có inline hay không.
 Không phải lúc nào cũng dùng hàm “inline” bởi vì khi hàm được inline quá dài và sử dụng nhiều lần trong source code, nó sẽ expand ra và làm tăng size của chương trình lên rất nhiều. Vì thế, thường ta sẽ inline những hàm có body ngắn thôi.
 
+## Get/Set
+* Các thành phần bên trong cần giới hạn truy cập, vì thế sinh ra việc sử dụng hàm.  
+   Quy luật bất biến của module hoá, S trong SOLID , mỗi hàm chỉ làm và thực hiện một việc duy nhất. Vậy thì hàm SET thì chỉ có SET giá trị vào, còn GET thì chỉ GET giá trị ra. Không thể nhét cả GET/SET vô trong một hàm.  
+   Trong lập trình, hàm viết càng nhỏ càng tốt, càng ít logic càng tốt. Vẫn theo quy tắc cũ 80 cột / 25 hàng tối đa cho một hàm.  
+   Với một số ngôn ngữ lập trình bậc cao như C#, thì việc GET/SET được quy về một cái gọi là ĐẶC TÍNH (hay tiếng Anh là PROPERTY), chỉ cần khai báo 1 lần trong code thôi. Nhưng về bản chất code sinh ra trước khi biên dịch thì sẽ tách ra thành 2 hàm, một GET, một SET cả thôi.  
+
+* Đặc trưng oop
+   lấy hoặc thay đổi gía trị của biến private nội bộ lớp thông qua phương thức get, set
 
