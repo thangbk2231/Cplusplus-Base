@@ -7,17 +7,17 @@
 
 * Để khai báo một cấu trúc mới (kiểu dữ liệu mới), chúng ta sử dụng từ khóa struct. Mặc dù một struct là một kiểu dữ liệu do lập trình viên tự định nghĩa, nó cũng cần được khai báo theo một cú pháp nhất định để compiler có thể hiểu được. Dưới đây là cú pháp để tạo ra một struct mới:
 
-```C++
-struct <name_of_new_type>
-{
-	<variables>;
-};
-```
+	```C++
+	struct <name_of_new_type>
+	{
+		<variables>;
+	};
+	```
 
-Trong đó:  
-**struct** là từ khóa mà ngôn ngữ C++ cung cấp.  
-**name_of_new_type** sẽ là tên của kiểu dữ liệu mới. Sau khi khai báo xong một struct, chúng ta có thể dùng tên struct để khai báo biến như những kiểu dữ liệu thông thường.  
-variables là danh sách các biến dùng để lưu trữ dữ liệu phù hợp với yêu cầu lưu trữ dữ liệu của một đơn vị nào đó.  
+	Trong đó:  
+	**struct** là từ khóa mà ngôn ngữ C++ cung cấp.  
+	**name_of_new_type** sẽ là tên của kiểu dữ liệu mới. Sau khi khai báo xong một struct, chúng ta có thể dùng tên struct để khai báo biến như những kiểu dữ liệu thông thường.  
+	variables là danh sách các biến dùng để lưu trữ dữ liệu phù hợp với yêu cầu lưu trữ dữ liệu của một đơn vị nào đó.  
 
 ## inline
 * Khi được nạp vào ram, mỗi hàm sẽ có địa chỉ nhất định, khi gọi thì cpu sẽ jump tới địa chỉ đó.
