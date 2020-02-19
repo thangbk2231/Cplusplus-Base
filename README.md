@@ -1,6 +1,7 @@
 # Cplusplus-Base
 
 ## Structs
+https://cpp.daynhauhoc.com/9/1-structs/
 * Như các bạn thấy, việc quản lý chương trình trở nên phức tạp so với những người mới học lập trình. Do đó, việc tự định nghĩa một kiểu dữ liệu mới phù hợp cho đặc thù của chương trình của mỗi người là điều cần thiết. Rất may mắn, ngôn ngữ C++ hổ trợ chúng ta tự định nghĩa kiểu dữ liệu mới từ những kiểu dữ liệu built-in. Kiểu dữ liệu mới mà chúng ta sẽ định nghĩa được tạo thành từ một hoặc một nhóm kiểu dữ liệu xây dựng sẵn để tạo ra một tập hợp các biến thuộc cùng nhóm, những biến cùng nhóm này dùng để lưu trữ các dữ liệu có liên quan với nhau trong kiểu dữ liệu mới. Chúng ta gọi kiểu dữ liệu tập hợp này là struct.  
 
 * Một struct (viết tắt của structure) cho phép chúng ta nhóm nhiều biến của nhiều kiểu dữ liệu khác nhau để lưu trữ một tập hợp các dữ liệu cần thiết cho việc mô tả một đơn vị nào đó.  
