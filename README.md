@@ -7,12 +7,12 @@ Một struct (viết tắt của structure) cho phép chúng ta nhóm nhiều bi
 
 Để khai báo một cấu trúc mới (kiểu dữ liệu mới), chúng ta sử dụng từ khóa struct. Mặc dù một struct là một kiểu dữ liệu do lập trình viên tự định nghĩa, nó cũng cần được khai báo theo một cú pháp nhất định để compiler có thể hiểu được. Dưới đây là cú pháp để tạo ra một struct mới:
 
-<pre>
+```C++
 struct <name_of_new_type>
 {
 	<variables>;
 };
-</pre>
+```
 
 Trong đó:  
 **struct** là từ khóa mà ngôn ngữ C++ cung cấp.  
