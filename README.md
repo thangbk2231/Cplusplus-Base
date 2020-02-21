@@ -40,3 +40,6 @@ Không phải lúc nào cũng dùng hàm “inline” bởi vì khi hàm đượ
 * Đặc trưng oop  
    lấy hoặc thay đổi gía trị của biến private nội bộ lớp thông qua phương thức get, set
 
+## Xử lý ngoại lệ trong ngôn ngữ C++
+https://daynhauhoc.com/t/xu-ly-ngoai-le-trong-ngon-ngu-c/74926  
+
