@@ -43,3 +43,6 @@ Không phải lúc nào cũng dùng hàm “inline” bởi vì khi hàm đượ
 ## Xử lý ngoại lệ trong ngôn ngữ C++
 https://daynhauhoc.com/t/xu-ly-ngoai-le-trong-ngon-ngu-c/74926  
 
+## Namespace
+https://www.stdio.vn/articles/tu-khoa-namespace-59  
+Namespace là một cơ chế trong C++, cho phép ta nhóm các thực thể (class, object, function…) có liên quan thành từng nhóm khác nhau theo tên, mà theo đó tên của mọi thực thể trong mỗi namespace đều được gắn thêm tên của namespace đó như tiền tố.  
