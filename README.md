@@ -46,3 +46,9 @@ https://daynhauhoc.com/t/xu-ly-ngoai-le-trong-ngon-ngu-c/74926
 ## Namespace
 https://www.stdio.vn/articles/tu-khoa-namespace-59  
 Namespace là một cơ chế trong C++, cho phép ta nhóm các thực thể (class, object, function…) có liên quan thành từng nhóm khác nhau theo tên, mà theo đó tên của mọi thực thể trong mỗi namespace đều được gắn thêm tên của namespace đó như tiền tố.  
+
+## Truy cập thuộc tính và method trong class hoặc struct
+* Thuộc tính thông thường    
+	Toán tử "."  
+* Thuộc tính là con trỏ  
+	Toán tử "->"  
