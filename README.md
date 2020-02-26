@@ -52,3 +52,6 @@ Namespace là một cơ chế trong C++, cho phép ta nhóm các thực t
 	Toán tử "."  
 * Thuộc tính, method là con trỏ  
 	Toán tử "->"  
+
+## Template
+https://cowboycoder.tech/article/c-co-ban-phan-27-template-thu-vien-template-chuan-cua-c  
