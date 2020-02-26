@@ -55,3 +55,6 @@ Namespace là một cơ chế trong C++, cho phép ta nhóm các thực t
 
 ## Template
 https://cowboycoder.tech/article/c-co-ban-phan-27-template-thu-vien-template-chuan-cua-c  
+
+## Dau & trong C++
+https://daynhauhoc.com/t/hoi-ve-dau-trong-c/1121  
