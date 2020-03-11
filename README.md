@@ -58,3 +58,6 @@ https://cowboycoder.tech/article/c-co-ban-phan-27-template-thu-vien-template-chu
 
 ## Dau & trong C++
 https://daynhauhoc.com/t/hoi-ve-dau-trong-c/1121  
+
+## Vector3f
+https://stackoverflow.com/questions/57810925/convenient-vector3f-class  
